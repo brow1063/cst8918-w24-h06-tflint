@@ -13,3 +13,8 @@ variable "admin_username" {
   default     = "azureadmin"
   description = "The username for the local user account on the VM."
 }
+
+variable "region" {
+  type    = string
+  default = "westus3"
+}
